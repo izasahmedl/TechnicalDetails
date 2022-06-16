@@ -1,0 +1,3 @@
+To Remove All Running Docker Containers in Powershell - docker rm -f $ (docker ps -a -q)
+
+To Remove All Stopped Docker Containers in Powershell - docker rm  $ (docker ps -a -q)
